@@ -9,8 +9,9 @@ export default class ProjectsComponent extends Component {
   render() {
     return (
       <div>
-        <h2 className="header">Projects</h2>
-        <h3 className="subHeader">FitMinded</h3>
+      <h1 className="header">Projects</h1>
+      <div className="allProjects">
+        <h1 className="subHeader">FitMinded</h1>
         <div className="projectVideos">
           <iframe
             title="FitMinded"
@@ -33,7 +34,7 @@ export default class ProjectsComponent extends Component {
           preference, FitMinded will help fitness enthusiasts connect with
           others.
         </p>
-        <h3 className="subHeader">Good Egg Shopper</h3>
+        <h1 className="subHeader">The Egg Shopper</h1>
         <div>
           <img
             src="/projects/eggShopper.png"
@@ -46,6 +47,7 @@ export default class ProjectsComponent extends Component {
           product filters. This eggcellent site is a mock shopping app designed
           for users to shop for their favorite kinds of eggs!
         </p>
+      </div>
       </div>
     );
   }

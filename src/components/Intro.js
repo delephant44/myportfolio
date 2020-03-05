@@ -18,14 +18,12 @@ export default class IntroComponent extends Component {
               className="profilePic"
             ></img>
           </div>
-          <h3 className="title">Full Stack Software Engineer</h3>
+          <h1 className="title">Full Stack Software Engineer</h1>
 
           <div className="shortBio">
             <p>
-              With over 4 years of ad tech experience, I'm a Full Stack Software
-              Engineer with a strong history of Client Services and Project
-              Management experience in the tech industry. I love: [insert
-              hobbies here]
+              With over 4 years of ad tech experience, I'm an engineer with a strong history of Client Services and Project
+              Management experience in the tech industry.
             </p>
           </div>
         </div>

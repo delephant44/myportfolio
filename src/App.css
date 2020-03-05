@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: rgb(0, 164, 163);
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .App-logo {
@@ -56,9 +56,10 @@
   flex-wrap: wrap;
   height: 50px;
   width: 50px;
-  border-radius: 5px;
-  background-color: green;
+  /* border-radius: 5px; */
+  /* background-color: green; */
   padding: 1px;
+  font-size: 30pt;
 }
 
 .techIcons img {
@@ -66,12 +67,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-  background-color: blue;
+  /* background-color: blue; */
   padding: 1px;
 }
 
 .techIcons {
-  background-color: red;
+  /* background-color: red; */
   padding: 1px;
   display: flex;
   flex-direction: row;
@@ -95,8 +96,8 @@
 }
 
 .techStack {
-  background-color: orange;
-  padding: 1px;
+  /* background-color: orange; */
+  /* padding: 1px; */
 }
 
 .profilePic {
@@ -108,3 +109,8 @@
   height: 60%;
   width: 60%;
 }
+
+/* .allProjects {
+  display: flex;
+  flex-direction: row;
+} */
