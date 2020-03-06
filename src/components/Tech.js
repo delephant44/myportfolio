@@ -14,30 +14,40 @@ export default class TechComponent extends Component {
         </div>
         <div className="allSkills">
           <div className="stackType">
-            <div className="stackHeader">Front-end</div>
-            <div></div>
-            <div className="techIcons">
-              <img src="/techIcons/react.png" alt="React" />
+            <div className="stackHeader">
+              Front-end
+              {/* <div className="techIcons"> */}
+                <img src="/techIcons/react.png" alt="React" />
+              {/* </div> */}
+              {/* <div className="techIcons"> */}
+                <img src="/techIcons/redux.png" alt="Redux" />
+              {/* </div> */}
             </div>
-            <div className="techIcons">
-              <img src="/techIcons/redux.png" alt="Redux" />
-            </div>
-            <div className="techIcons">
+            {/* <div className="techIcons">
               <img src="/techIcons/html.png" alt="HTML" />
             </div>
             <div className="techIcons">
               <img src="/techIcons/css.png" alt="CSS" />
-            </div>
+            </div> */}
           </div>
           <div className="stackType">
-            Back-end
+            <div className="stackHeader">Back-end</div>
+
             <div className="techIcons">
               <img src="/techIcons/nodejs.png" alt="Node" />
-              <img src="/techIcons/express.jpg" alt="Express" />
-              <img src="/techIcons/sequelize.png" alt="Sequelize" />
-              <img src="/techIcons/mongodb.png" alt="MongoDB" />
-              <img src="/techIcons/postgresql.png" alt="PostgreSQL" />
             </div>
+            <div className="techIcons">
+              <img src="/techIcons/express.jpg" alt="Express" />
+            </div>
+            {/* <div className="techIcons">
+              <img src="/techIcons/sequelize.png" alt="Sequelize" />
+            </div>
+            <div className="techIcons">
+              <img src="/techIcons/mongodb.png" alt="MongoDB" />
+            </div>
+            <div className="techIcons">
+              <img src="/techIcons/postgresql.png" alt="PostgreSQL" />
+            </div> */}
           </div>
         </div>
       </div>
