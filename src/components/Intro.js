@@ -10,7 +10,7 @@ export default class IntroComponent extends Component {
     return (
       <header className="App-header">
         <div className="top">
-          <h1 className="header">Adel Jabbar</h1>
+          <h1 className="name">Adel Jabbar</h1>
           <div>
             <img
               src="/profile.jpg"
@@ -22,7 +22,7 @@ export default class IntroComponent extends Component {
 
           <div className="shortBio">
             <p>
-              With over 4 years of ad tech experience, I'm an engineer with a strong history of Client Services and Project
+              I'm an engineer with a strong history of Client Services and Project
               Management experience in the tech industry.
             </p>
           </div>
