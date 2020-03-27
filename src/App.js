@@ -4,7 +4,7 @@ import "./App.css";
 import TechComponent from "./components/Tech";
 import IntroComponent from "./components/Intro";
 import ProjectsComponent from "./components/Projects";
-import HobbiesComponent from "./components/hobbies";
+import HobbiesComponent from "./components/Hobbies";
 
 function App() {
   return (

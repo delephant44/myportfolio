@@ -26,7 +26,7 @@ export default class TechComponent extends Component {
                 <img src="/techIcons/html.png" alt="HTML" />
               </div>
               <div className="techIcons">
-                <img src="/techIcons/css.png" alt="CSS" />
+                <img src="/techIcons/css3.png" alt="CSS" />
               </div>
             </div>
           </div>
@@ -37,13 +37,13 @@ export default class TechComponent extends Component {
                 <img src="/techIcons/nodejs.png" alt="Node" />
               </div>
               <div className="techIcons">
-                <img src="/techIcons/express.jpg" alt="Express" />
+                <img src="/techIcons/express3.png" alt="Express" class="expressLogo" />
               </div>
               <div className="techIcons">
                 <img src="/techIcons/sequelize.png" alt="Sequelize" />
               </div>
               <div className="techIcons">
-                <img src="/techIcons/mongodb.png" alt="MongoDB" />
+                <img src="/techIcons/mongodb.png" alt="MongoDB" class="mongoLogo" />
               </div>
               <div className="techIcons">
                 <img src="/techIcons/postgresql.png" alt="PostgreSQL" />

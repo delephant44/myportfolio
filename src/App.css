@@ -25,15 +25,14 @@ p {
   pointer-events: none;
 }
 
-
 .App-header {
   /* background-color: #282c34; */
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   /* color: white; */
 }
 
@@ -48,10 +47,15 @@ p {
 }
 
 .header {
-  font-size: 40px
+  font-size: 40px;
+  padding: 0 0 30px 0;
 }
 
 /* Tech  */
+
+.techSection {
+  padding: 0 0 100px 0;
+}
 
 .allSkills {
   display: flex;
@@ -59,8 +63,7 @@ p {
   /* align-items: flex-end; */
   justify-content: space-around;
   /* background-color: pink; */
-  padding: 10px;
-  }
+}
 
 .stackType {
   display: flex;
@@ -79,13 +82,13 @@ p {
 }
 
 .stackType div {
-
 }
 
 .stackHeader {
   /* align-items: center; */
   margin: 0px;
   font-size: 30px;
+  padding: 0 0 30px 0;
 }
 
 .stackHeader img {
@@ -106,17 +109,38 @@ p {
   width: 70px;
   height: 70px;
   /* background-color: blue; */
-  padding: 1px;
+  padding: 10px;
+  
+}
+
+.expressLogo {
+  max-height: 20px;
+}
+
+.mongoLogo {
+  min-width: 140px;
 }
 
 .techIcons {
   padding: 1px;
-  width: 70px;
+  width: auto;
   height: 70px;
+  display: flex;
+  align-items: center;
   /* background-color: yellow; */
 }
 
-/* HOBBY */
+/* PROJECTS */
+
+.allProjects {
+  padding: 0 0 100px 0;
+}
+
+.allProjects p {
+  padding: 0 0 30px 0;
+}
+
+/* HOBBIES */
 
 .hobbyIcons {
   padding: 1px;
