@@ -1,7 +1,9 @@
 .App {
   text-align: center;
-  background-color: rgb(0, 164, 163);
+  background-color: whitesmoke;
   font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+
 }
 
 .name {
@@ -74,7 +76,7 @@ p {
   /* height: 200px; */
   width: 300px;
   border-radius: 20px;
-  background-color: green;
+  /* background-color: green; */
   padding: 2px;
   font-size: 16pt;
   border: 1px solid #333333;
@@ -138,6 +140,10 @@ p {
 
 .allProjects p {
   padding: 0 0 30px 0;
+}
+
+.projectPhoto {
+  border: 3px solid #333333;
 }
 
 /* HOBBIES */

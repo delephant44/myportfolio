@@ -22,8 +22,8 @@ export default class IntroComponent extends Component {
 
           <div className="shortBio">
             <p>
-              I'm an engineer with a strong history of Client Services and Project
-              Management experience in the tech industry.
+              Hi! I'm a software engineer with a strong history of Client Services and Project
+              Management experience.
             </p>
           </div>
         </div>
