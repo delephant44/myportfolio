@@ -11,17 +11,29 @@ class NavbarComponent extends Component {
 
   render() {
     return (
-    <nav>
-      <div className="navbar">
+      <nav>
+        <div className="navbar">
           <div className="navbarLinks">
-            <a href="https://www.linkedin.com/in/adeljabbar/"> LinkedIn </a>
-            <a href="https://github.com/delephant44/"> GitHub </a>
-            <a href="malto:adeljabb@gmail.com"> Contact Me </a>
-        
+            <div>
+              <a href="https://www.linkedin.com/in/adeljabbar/">
+                {" "}
+                <img src="contactIcons/linkedin.png" alt="LinkedIn"></img>{" "}
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/delephant44/">
+                {" "}
+                <img src="contactIcons/github.png" alt="GitHub"></img>{" "}
+              </a>
+            </div>
+            <div>
+              <a href="mailto:adeljabb@gmail.com">
+                <img src="contactIcons/email.png" alt="Email Me"></img>
+              </a>
+            </div>
           </div>
-      </div>
-
-    </nav>
+        </div>
+      </nav>
     );
   }
 }

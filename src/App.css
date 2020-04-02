@@ -53,7 +53,24 @@ p {
   padding: 0 0 30px 0;
 }
 
-/* Tech  */
+/* NAVBAR */
+.navbarLinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbarLinks img {
+  height: 50px;
+  width: 50px;
+}
+
+.emailIcon a {
+  height: 30px;
+  width: 30px;
+}
+
+
+/* TECH  */
 
 .techSection {
   padding: 0 0 100px 0;
