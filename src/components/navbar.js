@@ -26,7 +26,7 @@ class NavbarComponent extends Component {
                 <img src="contactIcons/github.png" alt="GitHub"></img>{" "}
               </a>
             </div>
-            <div>
+            <div className="emailIcon">
               <a href="mailto:adeljabb@gmail.com">
                 <img src="contactIcons/email.png" alt="Email Me"></img>
               </a>

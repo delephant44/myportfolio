@@ -1,25 +1,10 @@
 .App {
   text-align: center;
-  background-color: whitesmoke;
+  background-image: linear-gradient(whitesmoke, skyblue);
+
+  /* background-color: whitesmoke; */
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
-
-}
-
-.name {
-  font-size: 60px;
-}
-
-.title {
-  font-size: 50px;
-}
-
-header p {
-  font-size: 25px;
-}
-
-p {
-  font-size: 20px;
 }
 
 .App-logo {
@@ -44,6 +29,14 @@ p {
 
 /* GENERAL */
 
+.name {
+  font-size: 60px;
+}
+
+.title {
+  font-size: 50px;
+}
+
 .profilePic {
   border-radius: 80px;
 }
@@ -51,24 +44,79 @@ p {
 .header {
   font-size: 40px;
   padding: 0 0 30px 0;
+  text-decoration: underline;
+}
+
+header p {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.subHeader {
+  font-size: 25px;
+}
+
+/* TOOLTIP */
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltipText {
+  visibility: hidden;
+  width: 120px;
+  background-color: #53ed6a;
+  color: #333333;
+  text-align: center;
+  border-radius: 6px;
+
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.tooltipText::before .tooltipText::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #53ed6a transparent;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* NAVBAR */
 .navbarLinks {
   display: flex;
   justify-content: flex-end;
+  /* padding: 0 5 0 0; */
 }
 
 .navbarLinks img {
   height: 50px;
   width: 50px;
+  padding: 10px;
 }
 
-.emailIcon a {
-  height: 30px;
-  width: 30px;
+.emailIcon img {
+  height: 43px;
+  width: 43px;
+  padding: 10px;
 }
-
 
 /* TECH  */
 
@@ -96,11 +144,8 @@ p {
   /* background-color: green; */
   padding: 2px;
   font-size: 16pt;
-  border: 1px solid #333333;
+  border: 3px solid #333333;
   /* margin: 6px */
-}
-
-.stackType div {
 }
 
 .stackHeader {
@@ -127,9 +172,13 @@ p {
 .techIcons img {
   width: 70px;
   height: 70px;
-  /* background-color: blue; */
   padding: 10px;
-  
+}
+
+.techIcons-css img {
+  width: 60px;
+  height: 70px;
+  padding: 10px;
 }
 
 .expressLogo {
@@ -161,7 +210,10 @@ p {
 
 .projectPhoto {
   border: 3px solid #333333;
+  height: 50%;
+  width: 50%;
 }
+
 
 /* HOBBIES */
 
@@ -182,11 +234,6 @@ p {
 .profilePic {
   height: 25%;
   width: 25%;
-}
-
-.projectPhoto {
-  height: 60%;
-  width: 60%;
 }
 
 .projectVideos {

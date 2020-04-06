@@ -21,7 +21,7 @@ export default class HobbiesComponent extends Component {
         </div>
         <div className="hobbyDescription">
           <p>
-            Outside of coding, I spend my time across a few favorite hobbies. I like to be physically active, which generally includes bodybuilding, yoga, or volleyball through the Gotham Volleyball organization. I love video games and host game nights with friends regularly. I enjoy bringing good people together! I really like Broadway shows, both plays and musicals. I'm interested in doing work to better the planet. I'm environmentally conscious and vegan.
+            Outside of coding, I spend my time across a few favorite hobbies. I am very physically active, which generally includes bodybuilding, yoga, and volleyball through the Gotham Volleyball organization. I love video games and host game nights with friends regularly. I enjoy bringing good people together! I really like Broadway shows, both plays and musicals. I'm also interested in doing work to better the planet. I'm environmentally conscious and vegan.
           </p>
         </div>
       </div>
