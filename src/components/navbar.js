@@ -1,20 +1,12 @@
-//keep it at top, first item in flex, flex-end
-
 import React, { Component } from "react";
-import { Link, Router } from "react-router-dom";
 
-class NavbarComponent extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
+export default class NavbarComponent extends Component {
   render() {
     return (
       <nav>
         <div className="navbar">
           <div className="navbarLinks">
-            <div>
+            <div className="linkedInIcon">
               <a href="https://www.linkedin.com/in/adeljabbar/">
                 {" "}
                 <img src="contactIcons/linkedin.png" alt="LinkedIn"></img>{" "}
@@ -37,5 +29,3 @@ class NavbarComponent extends Component {
     );
   }
 }
-
-export default NavbarComponent;

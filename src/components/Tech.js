@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 
 export default class TechComponent extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   render() {
     return (
       <div className="techSection">
@@ -18,8 +13,6 @@ export default class TechComponent extends Component {
             <div className="allIcons">
               <div className="techIcons">
                 <img src="/techIcons/react.png" alt="React" title="React" />
-                {/* <span className="tooltip">  
-                </span> */}
               </div>
               <div className="techIcons">
                 <img src="/techIcons/redux.png" alt="Redux" title="Redux" />
@@ -28,7 +21,7 @@ export default class TechComponent extends Component {
                 <img src="/techIcons/html.png" alt="HTML" title="HTML" />
               </div>
               <div className="techIcons-css">
-                <img src="/techIcons/css3.png" alt="CSS" title="CSS" />
+                <img src="/techIcons/css.png" alt="CSS" title="CSS" />
               </div>
             </div>
           </div>
@@ -40,14 +33,18 @@ export default class TechComponent extends Component {
               </div>
               <div className="techIcons">
                 <img
-                  src="/techIcons/express3.png"
+                  src="/techIcons/express.png"
                   alt="Express"
                   class="expressLogo"
                   title="Express"
                 />
               </div>
               <div className="techIcons">
-                <img src="/techIcons/sequelize.png" alt="Sequelize" title="Sequelize"/>
+                <img
+                  src="/techIcons/sequelize.png"
+                  alt="Sequelize"
+                  title="Sequelize"
+                />
               </div>
               <div className="techIcons">
                 <img
@@ -58,7 +55,11 @@ export default class TechComponent extends Component {
                 />
               </div>
               <div className="techIcons">
-                <img src="/techIcons/postgresql.png" alt="PostgreSQL" title="PostgreSQL" />
+                <img
+                  src="/techIcons/postgresql.png"
+                  alt="PostgreSQL"
+                  title="PostgreSQL"
+                />
               </div>
             </div>
           </div>

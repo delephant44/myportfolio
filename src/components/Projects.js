@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 
 export default class ProjectsComponent extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   render() {
     return (
       <div>
@@ -20,9 +15,9 @@ export default class ProjectsComponent extends Component {
               width="560"
               height="315"
               src="https://www.youtube.com/embed/SAvn2aMWRZE"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen={true}
             ></iframe>
           </div>
           <p>
@@ -37,7 +32,9 @@ export default class ProjectsComponent extends Component {
             connect with others.
           </p>
           <h1 className="subHeader">
-            <a href="https://github.com/TheGoodEggs/TheGoodEggsShopper">The Egg Shopper</a>
+            <a href="https://github.com/TheGoodEggs/TheGoodEggsShopper">
+              The Egg Shopper
+            </a>
           </h1>
           <div>
             <img

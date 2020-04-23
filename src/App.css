@@ -1,8 +1,6 @@
 .App {
   text-align: center;
   background-image: linear-gradient(whitesmoke, skyblue);
-
-  /* background-color: whitesmoke; */
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
 }
@@ -13,14 +11,11 @@
 }
 
 .App-header {
-  /* background-color: #282c34; */
   min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* font-size: calc(10px + 2vmin); */
-  /* color: white; */
 }
 
 .App-link {
@@ -38,7 +33,7 @@
 }
 
 .profilePic {
-  border-radius: 80px;
+  border-radius: 100px;
 }
 
 .header {
@@ -103,7 +98,6 @@ p {
 .navbarLinks {
   display: flex;
   justify-content: flex-end;
-  /* padding: 0 5 0 0; */
 }
 
 .navbarLinks img {
@@ -127,9 +121,7 @@ p {
 .allSkills {
   display: flex;
   flex-direction: row;
-  /* align-items: flex-end; */
   justify-content: space-around;
-  /* background-color: pink; */
 }
 
 .stackType {
@@ -137,19 +129,14 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: flex-start; */
-  /* height: 200px; */
   width: 300px;
   border-radius: 20px;
-  /* background-color: green; */
   padding: 2px;
   font-size: 16pt;
   border: 3px solid #333333;
-  /* margin: 6px */
 }
 
 .stackHeader {
-  /* align-items: center; */
   margin: 0px;
   font-size: 30px;
   padding: 0 0 30px 0;
@@ -165,8 +152,6 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /* width: 900px; */
-  /* align-self: flex-start; */
 }
 
 .techIcons img {
@@ -195,7 +180,6 @@ p {
   height: 70px;
   display: flex;
   align-items: center;
-  /* background-color: yellow; */
 }
 
 /* PROJECTS */
@@ -213,7 +197,6 @@ p {
   height: 50%;
   width: 50%;
 }
-
 
 /* HOBBIES */
 
@@ -239,8 +222,3 @@ p {
 .projectVideos {
   position: relative;
 }
-
-/* .allProjects {
-  display: flex;
-  flex-direction: row;
-} */
